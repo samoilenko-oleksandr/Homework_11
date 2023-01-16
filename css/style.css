@@ -24,8 +24,9 @@ h2 {
 }
 
 #container {
-  max-width: 1024px;
+  max-width: 1054px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header */
@@ -47,6 +48,7 @@ h2 {
 
 .nav_list {
   display: flex;
+  align-items: center;
 }
 
 .nav_item:not(:first-child) {
@@ -97,7 +99,7 @@ h2 {
 
 .history_item {
   max-width: 500px;
-  max-height: 394px;
+  min-height: 394px;
   background-color: #000;
   padding: 50px;
   display: flex;
@@ -155,7 +157,7 @@ textarea::placeholder {
   position: absolute;
   top: 30px;
   right: 30px;
-  width: 200px;
+  min-width: 200px;
   height: 60px;
   background-color: #000;
   color: #fff;

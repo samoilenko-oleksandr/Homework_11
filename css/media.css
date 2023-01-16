@@ -101,12 +101,19 @@
 
   .header.menu_open .nav_item_link {
     color: #fff;
+    font-size: 24px;
+    line-height: 1.2;
   }
 
   /* Description */
 
   .description {
     margin-bottom: 37px;
+  }
+
+  .description_text {
+    font-size: 20px;
+    line-height: 1.2;
   }
   /* History */
 
@@ -127,10 +134,27 @@
     min-height: 214px;
   }
 
+  .history_item_text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
   /* Contact us */
 
   .contact_title {
     margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .send_btn {
+    position: static;
+    width: 100%;
+    font-size: 24px;
+  }
+
+  textarea {
+    margin-bottom: 19px;
   }
 }
 
@@ -174,6 +198,7 @@
   .header.menu_open .nav_list {
     flex-direction: column;
     gap: 48px;
+    align-items: flex-start;
   }
 
   .header.menu_open .nav_item:not(:first-child) {
@@ -220,23 +245,18 @@
     line-height: 1.2;
   }
 
+  .history_item_text {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
   .contact_title {
     font-size: 20px;
     line-height: 1.2;
   }
 
-  textarea {
-    margin-bottom: 19px;
-  }
-
   textarea::placeholder {
     top: 20px;
     left: 20%;
-  }
-
-  .send_btn {
-    position: static;
-    width: 100%;
-    font-size: 24px;
   }
 }

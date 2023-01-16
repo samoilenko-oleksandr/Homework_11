@@ -11,14 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
-    <div id="container">
-      <header id="header" class="header">
+    <header id="header" class="header">
+      <div id="container">
         <div class="header_inner">
           <button id="burger_icon" class="burger_icon">
             <span class="burger_icon_inner"></span>
@@ -54,8 +56,10 @@
             </ul>
           </nav>
         </div>
-      </header>
-      <main class="main">
+      </div>
+    </header>
+    <main class="main">
+      <div id="container">
         <section class="carousel">
           <div>
             <img src="img/photo01.png" alt="photo01" />
@@ -115,11 +119,11 @@
               name="text"
               placeholder="type your message here"
             ></textarea>
-            <input type="submit" value="SEND" class="send_btn" />
+            <button class="send_btn">SEND</button>
           </form>
         </section>
-      </main>
-    </div>
+      </div>
+    </main>
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/slick.js"></script>
