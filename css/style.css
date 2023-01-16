@@ -29,6 +29,12 @@ h2 {
   padding: 0 15px;
 }
 
+.main {
+  max-width: 1054px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* Header */
 
 .header_inner {
